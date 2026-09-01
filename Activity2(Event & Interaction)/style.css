@@ -1,0 +1,81 @@
+/* on my side i prefer to use external css on this activity*/
+
+/*For the whole body*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cccccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+/*For toggle feature*/
+.theme-toggle{
+    margin-bottom: 20px;
+}
+
+.theme-toggle button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background:  #999999;
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/*For card/pannel*/
+.card{
+    display: flex;
+    width: 800px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/*For Left Pannel*/
+.panel-left{
+    background: #c7cdd4;
+    padding: 30px;
+    width: 250px;
+}
+
+/*For Right Pannel*/
+.panel-right{
+    background: #d7dde3;
+    padding: 30px;
+    flex: 1;
+}
+
+/*for the inputs in the form*/
+.panel-right input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 20px;
+    background: #a9adb2;
+}
+
+/*For the button in the form*/
+.panel-right button{
+    padding: 12px 24px;
+    border: none;
+    border-radius: 20px;
+    background: #b7bcc2;
+    cursor: pointer;
+}
+
+/*For the dark mode*/
+.dark-mode {
+    background-color: #222222;
+}
+
+.dark-mode .panel-left {
+    background: #333333;
+    color: white;
+}
+
+.dark-mode .panel-right {
+    background: #444444;
+    color: white;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "theme-toggle">
+        <button id="lightBtn">Light</button>
+        <button id="darkBtn">Dark</button>
+    </div>
+
+    <!--left side of the form that welcoming the user-->
+    <div class = "card">
+        <div class = "panel-left">
+            <h1>Student Registration Form</h1>
+            <p>Please fill in the form to register.</p>
+        </div>
+
+         <!--right side of the form where the registration fields are located-->
+        <div class="panel-right">
+            <h2>Registration Form</h2>
+            <form id="registrationForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="course">Course:</label>
+                <input type="text" id="course" name="course" required>
+
+                 <!-- Submit button for the user to register -->
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
