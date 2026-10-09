@@ -19,7 +19,7 @@ try{
         throw new Error ("Opps: ${response.status}")
     }
     const data = await response.json();
-    const firstFive = data.slice(0, 10);
+    const firstFive = data.slice(0, 5);
     renderPosts(firstFive);
     statusEl.textContent = "";
      

@@ -13,3 +13,7 @@
 - fetch calls such as Async/Await
 - Error handling
 - No page refresh
+
+## For the Sucessful State and Error State:
+Heres the GDocs Link:
+[Success & Error State](https://docs.google.com/document/d/14zZ7hGTLFOPEVlH9iqOGyzzPXtis4GXRlApEncSL2_M/edit?usp=sharing)
