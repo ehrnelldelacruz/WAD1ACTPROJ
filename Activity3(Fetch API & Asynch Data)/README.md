@@ -2,7 +2,7 @@
 ## in this activity to reflect the lesson of Fetch API, i created a simple Post Explorer
 
 ## Before i start i make a 1 week roadmap to devlop this process such as:
-- creating of HTML Structure
+- creating of HTML Structure (for the main body of the app such as; Title and Buttons)
 - CSS Designs
 - JS Functions (Main Part)
 ## also the Contents of JS functions such as:
