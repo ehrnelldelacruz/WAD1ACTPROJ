@@ -1,5 +1,5 @@
 #DYNAMIC POST EXPLORER
-## in this activity to reflect the lesson of Fetch API, i reated a simple Post Explorer
+## in this activity to reflect the lesson of Fetch API, i created a simple Post Explorer
 
 ## Before i start i make a 1 week roadmap to devlop this process such as:
 - creating of HTML Structure
