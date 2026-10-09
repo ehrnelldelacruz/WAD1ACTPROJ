@@ -5,7 +5,7 @@
 - creating of HTML Structure
 - CSS Designs
 - JS Functions (Main Part)
-## aslo the Contents of JS functions such as:
+## also the Contents of JS functions such as:
 - Load button
 - 5 posts limit
 - Loading Indicators
